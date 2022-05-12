@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./assets/css/components.css">
 </head>
 <body>
-    <nav>
-        <p>csFlex</p>
+    <nav class="y-center x-between">
+        <p class="f-300">csFlex</p>
         <ul class="menu">
             <li><a href="#main">Main</a></li>
             <li><a href="#colors">Colors</a></li>
@@ -20,14 +20,22 @@
         </ul>
     </nav>
     <main>
-        <section id="main">
+        <section id="main" class="flex y-center x-center f-200 f-medium c-light">
             <p>Content</p>
         </section>
-        <section id="colors">
+        <section id="colors" class="flex y-center x-center f-300 f-big">
             <p>Content</p>
         </section>
-        <section id="components">
-            <p>Content</p>
+        <section id="components" class="flex-y y-center x-center">
+            <div class="flex-y">
+                <div class="card">
+                    <div class="card_title">Card Title</div>
+                    <div class="card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eum?</div>
+                    <div class="card_footer">
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

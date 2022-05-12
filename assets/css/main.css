@@ -23,21 +23,21 @@
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     src: url('../fonts/Poppins-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     src: url('../fonts/Poppins-ExtraBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     src: url('../fonts/Poppins-Black.woff') format('woff');
 }
 
@@ -55,3 +55,104 @@
     font-weight: normal;
 }
 
+/*
+---------------------------------------------------
+Flex attributes, all classes for flexbox use
+---------------------------------------------------
+*/
+.flex {
+    display: flex;
+}
+
+.flex-y {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Vertical set */
+.y-center {
+    align-items: center;
+}
+
+.y-start {
+    align-items: flex-start;
+}
+
+.y-end {
+    align-items: flex-end;
+}
+
+.y-base {
+    align-items: baseline;
+}
+
+.y-stretch {
+    align-items: stretch;
+}
+
+/* Horizontal set */
+.x-center {
+    justify-content: center;
+}
+
+.x-start {
+    justify-content: flex-start;
+}
+
+.x-end {
+    justify-content: flex-end;
+}
+
+.x-base {
+    justify-content: baseline;
+}
+
+.x-around {
+    justify-content: space-around;
+}
+
+.x-between {
+    justify-content: space-between;
+}
+
+.x-evenly {
+    justify-content: space-evenly;
+}
+
+
+/*
+---------------------------------------------------
+Typography, all classes for typo use (size base: 16px)
+---------------------------------------------------
+*/
+.f-small {
+    font-size: .5rem;
+}
+
+.f-medium {
+    font-size: 2rem;
+}
+
+.f-big {
+    font-size: 3rem;
+}
+
+.f-200 {
+    font-weight: 200;
+}
+
+.f-300 {
+    font-weight: 300;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.f-500 {
+    font-weight: 500;
+}
+
+.f-600 {
+    font-weight: 600;
+}

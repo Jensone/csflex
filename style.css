@@ -4,12 +4,9 @@ nav {
     width: 100%;
     padding: 0 1rem;
     background-color: #151515;
-    justify-content: space-between;
-    align-items: center;
 }
 
 nav p {
-    font-weight: 600;
     letter-spacing: .1rem;
 }
 

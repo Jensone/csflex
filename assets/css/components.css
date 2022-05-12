@@ -1,0 +1,52 @@
+/*
+---------------------------------------------------
+Cards
+---------------------------------------------------
+*/
+.card {
+    display: grid;
+    grid-template-rows: 1fr 4fr .5fr;
+    background-color: var(--light);
+    height: 25rem;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+}
+
+.card_title, .card_footer {
+    text-align: center;
+}
+
+.card_title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: solid 1px var(--gray);
+}
+
+.card_content {
+    font-weight: 100;
+}
+
+.card_footer a {
+    font-weight: 100;
+    letter-spacing: .1rem;
+    color: var(--dark);
+    transition: letter-spacing 950ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card_footer a:hover {
+    letter-spacing: .15rem;
+    transition: letter-spacing 950ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card_footer a::before {
+    content: '\269E';
+    padding-right: .5rem;
+}
+
+.card_footer a::after {
+    content: '\269F';
+    padding-left: .5rem;
+}

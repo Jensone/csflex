@@ -1,5 +1,49 @@
 :root {
     --light: #ffffff;
+    --smoke: #F9F9F9;
     --dark: #151515;
+    --gray: #909090;
+}
 
+/*
+---------------------------------------------------
+Color set
+---------------------------------------------------
+*/
+.c-light {
+    color: var(--light);
+}
+
+.c-smoke {
+    color: var(--smoke);
+}
+
+.c-dark {
+    color: var(--dark);
+}
+
+.c-gray {
+    color: var(--gray);
+}
+
+
+/*
+---------------------------------------------------
+Background color set
+---------------------------------------------------
+*/
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-smoke {
+    background-color: var(--smoke);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-gray {
+    background-color: var(--gray);
 }
