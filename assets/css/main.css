@@ -1,0 +1,57 @@
+/* Import fonts */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Poppins-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Poppins-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Poppins-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Poppins-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/Poppins-Black.woff') format('woff');
+}
+
+@import url("../css/colors.css");
+
+
+/* Reset CSS */
+* {
+    margin: 0; /* Remove margins */
+    padding: 0; /* removes default padding */
+    box-sizing: border-box; /* to make sure all elements are the same size */
+    list-style: none; /* remove list bullets */
+    text-decoration: none; /* remove underline */
+    font-family: 'Poppins', sans-serif; /* font family */
+    font-weight: normal;
+}
+

@@ -1,0 +1,45 @@
+nav {
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: #151515;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+nav, nav a {
+    color: var(--light);
+}
+
+nav, nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+main {
+    padding-top: 3rem;
+}
+
+#main {
+    height: 500px;
+    background-color: blueviolet;
+}
+
+#colors {
+    height: 500px;
+    background-color:aquamarine;
+}
+
+#components {
+    height: 500px;
+    background-color:darksalmon
+}
