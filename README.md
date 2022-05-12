@@ -1,3 +1,3 @@
 # csFlex
 
-Base d'exmple de construction de son propre framework CSS
+Base d'exemple de construction de son propre framework CSS
